@@ -1,5 +1,7 @@
-package codecademy-courses.Learn-Java.03-Object-Oriented-Java.02-Learn-Java-Methods;
-
 public class Main {
+	public static void main(String[] args) {
+		Store lemonadeStand = new Store("Lemonade");
 
+		lemonadeStand.advertise();
+	}
 }
